@@ -21,7 +21,7 @@ This script is intended for copying messages from public channels, or private ch
 - Option to print each successfully copied message to a file
 
 # Getting started
-Example values for the .env file are given in example.env.
+The environment variables are to be given in a .env file. An example is shown in example.env.
 
 1. Make an app with the Telegram API: [https://my.telegram.org/apps](https://my.telegram.org/apps) and fill in the API\_ID and API\_HASH environment variables in the .env file with the App api\_id and App api\_hash respectively.
 2. Fill in the BOT\_TOKENS environment variable with the bot tokens of the bots that you want to use to copy messages (you can make bots using @BotFather), comma-separated. You can split them onto multiple lines if you want. Ensure you don't put a comma on the end of the last session string listed.
