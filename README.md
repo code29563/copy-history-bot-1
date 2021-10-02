@@ -47,7 +47,7 @@ For each stream, the script iterates through all numbers from the ID of the firs
 
 ## Switching between clients and handling floodwaits
 
-The API method used when retrieving messages is messages.getHistory, and the method used when sending messages is messages.sendMessage for text messages or messages.sendMedia for media messages.
+The API method used when retrieving messages is messages.GetMessages, and the method used when sending messages is messages.sendMessage for text messages or messages.sendMedia for media messages.
 
 A bot may receive a 420 FLOOD (floodwait) error if it makes a request with a particular method more than a particular number of times within some timeframe. The error includes a time the bot is required to wait before it can successfully send another request with that method.
 
